@@ -19,7 +19,7 @@ export class AboutMe extends HTMLElement{
                                 <h4 class="card-title Logo">I'm </h4><p class="card-text"><small class="text-body-secondary" id="Im"></small></p>  
                                 <div class="d-flex align-items-center gap-1 justify-content-center">
                                     <button type="button" id="Download" class="btn btn-outline-dark fs-6 " > Download Cv</button>
-                                    <a id="link" href="./cv/Baha Eddine_Gassar.pdf" download hidden></a>
+                                 
                                     <button type="button" id="Contact" class="btn btn-dark " > Contact me</button>
 
                                 </div> 
@@ -49,7 +49,7 @@ export class AboutMe extends HTMLElement{
           })
 
           this.querySelector("#Download").addEventListener("click",()=>{
-            document.querySelector('#link').click();
+           window.open("./cv/Baha Eddine_Gassar.pdf")
           })
 
     }
