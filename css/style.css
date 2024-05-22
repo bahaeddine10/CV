@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Jaro:opsz@6..72&display=swap');
+html{
+    scroll-behavior: smooth;
+    scrollbar-color: red;
+}
+
+#H3:is(.Logo){
+    position: relative;
+    color: white;
+    font-size:14vw;
+    -webkit-text-stroke: 0.3vw white;
+   
+}
+
+
+
+#H3:is(.Logo)::before{
+    content: attr(data-text);
+    -webkit-text-stroke: 0.0vw black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: black;
+    border-right: 2px solid white;
+    overflow: hidden;
+    animation: moving 6s linear infinite;
+}
+@keyframes moving {
+    0%,10%,100%{
+        width: 0;
+    }
+    70%,90%{
+        width: 100%;
+    }
+
+    
+}
+
+.card{
+    position: relative;
+    left: 30%;
+
+}
+
+.carousel-item{
+    padding: 3rem;    
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.Logo,.card-title {
+    font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+.card-text{
+
+}
+:not(.Logo){
+    font-family: "Fjalla One", sans-serif;
+    font-size: 20px;
+    
+    font-weight: 400;
+    font-style: normal;
+}
+
+
