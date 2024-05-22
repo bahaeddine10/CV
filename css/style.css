@@ -8,7 +8,7 @@ html{
 #H3:is(.Logo){
     position: relative;
     color: white;
-    font-size:14vw;
+    font-size:5vw;
     -webkit-text-stroke: 0.3vw white;
    
 }
@@ -68,9 +68,11 @@ a{
     color: black;
 }
 
-li a:hover{
-    text-decoration: underline;
+#Im{
+    font-size: 11px;
 }
+
+
 
 :not(.Logo){
     font-family: "Fjalla One", sans-serif;

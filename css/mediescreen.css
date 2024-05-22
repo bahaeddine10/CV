@@ -3,5 +3,9 @@
     .card{
         left: 0;
     }
+    #Im{
+        font-size: 9px;
+        font-weight: bold;
+    }
    
 }
