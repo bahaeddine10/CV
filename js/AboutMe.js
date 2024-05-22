@@ -10,7 +10,7 @@ export class AboutMe extends HTMLElement{
         <div class=" card  mb-4" style="padding:50px 30px 50px 30px;max-width: 540px;">
                     <div class="row gap-0">
                       <div class="col-md-4">
-                        <img src="./assert/img/baha5.png" class="img-fluid rounded-start " alt="...">
+                        <img src="../assert/img/baha5.png" class="img-fluid rounded-start " alt="...">
                       </div>
                       <div class="col-md-8">
                         <div class="card-body ">
@@ -19,7 +19,7 @@ export class AboutMe extends HTMLElement{
                                 <h4 class="card-title Logo">I'm </h4><p class="card-text"><small class="text-body-secondary" id="Im"></small></p>  
                                 <div class="d-flex align-items-center gap-1 justify-content-center">
                                     <button type="button" id="Download" class="btn btn-outline-dark fs-6 " > Download Cv</button>
-                                    <a id="link" href="./assert/cv/Baha Eddine_Gassar.pdf" download hidden></a>
+                                    <a id="link" href="../assert/cv/Baha Eddine_Gassar.pdf" download hidden></a>
                                     <button type="button" id="Contact" class="btn btn-dark " > Contact me</button>
 
                                 </div> 
