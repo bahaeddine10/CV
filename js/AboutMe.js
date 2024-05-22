@@ -47,7 +47,9 @@ export class AboutMe extends HTMLElement{
           this.querySelector("#Contact").addEventListener("click",()=>{
             Swal.fire();
           })
-
+          this.querySelector("#Download").addEventListener("click",(event)=>{
+            event.target
+          })
           this.querySelector("#Download").addEventListener("click",()=>{
            window.open("./cv/Baha Eddine_Gassar.pdf")
           })

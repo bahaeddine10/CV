@@ -1,7 +1,8 @@
 import { AboutMe } from "./AboutMe.js";
 
+import { NavBar } from "./NavBar.js";
 customElements.define("about-me",AboutMe);
-
+customElements.define("nav-bar",NavBar);
 
 let   typed1 = new Typed('#myname', {
     strings: ['Baha Eddine Gassar', 'BEG'],
@@ -12,34 +13,4 @@ let   typed1 = new Typed('#myname', {
   });
 
 
-
-  //Software Engineering and Information System Student
-let words =["Hello... :)","click navItems for moving carousel ↑" ]
-
-let playground=document.querySelector("#H3");
-
-const sleep = (ms)=> new Promise(resolve=> setTimeout(resolve,ms) ) ;
-
-
-
-
-const loopMots= async ()=>{
-  let sleepTime = 6050;
-  while(true){
-    
-    for (let index of words){
-    
-      playground.dataset.text=index;
-      
-      playground.innerText=index;
-      
-      await sleep(sleepTime);
-
-    
-    } 
-    
-  }
-};
-
-window.addEventListener("load",loopMots);
 
