@@ -71,9 +71,7 @@ a{
 li a:hover{
     text-decoration: underline;
 }
-.card-text{
 
-}
 :not(.Logo){
     font-family: "Fjalla One", sans-serif;
     font-size: 20px;

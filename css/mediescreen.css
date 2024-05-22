@@ -1,12 +1,5 @@
 @media screen and (max-width : 1000px) {
-    .navbarDesk{
-        display: none;
-    }
-    .navbarMobile{
-        display: flex;
-        justify-content: space-around;
-       
-    }
+
     .card{
         left: 0;
     }
