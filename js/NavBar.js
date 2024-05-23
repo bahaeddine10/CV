@@ -22,7 +22,7 @@ connectedCallback(){
                     <a class="nav-link"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" href="#">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"  href="#">Certificates</a>
+                    <a class="nav-link"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4" href="#">Certificates</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link"  href="#">Certificates</a>
