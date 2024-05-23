@@ -16,7 +16,8 @@ export class AboutMe extends HTMLElement{
                         <div class="card-body ">
                           
                             
-                                <h4 class="card-title Logo">I'm </h4><p class="card-text"><small class="text-body-secondary" id="Im"></small></p>  
+                                <h4 class="card-title Logo">I'm </h4>
+                                <p class="card-text" id="Im"></p>  
                                 <div class="d-flex align-items-center gap-1 justify-content-center">
                                     <button type="button" id="Download" class="btn btn-outline-dark fs-6 " > Download Cv</button>
                                  
