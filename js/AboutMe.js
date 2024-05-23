@@ -23,9 +23,8 @@ export class AboutMe extends HTMLElement{
                                 <a class="link  text-decoration-none " href="http://www.istic.rnu.tn/fr/" > ISTIC Borj Cedria </a></p> </li>
                                 <li><p class="card-text" style="font-size:15px"> je recherche d'un stage d'été en 
                                 Développement Logiciel<br> pour <mark >PFA</mark></p></li>
-                                <div class="d-flex pt-2 pb-2 align-items-center gap-1 justify-content-center">
-                                    <button type="button" id="Download" class="btn  btn-outline-dark  " ><i class="fa-solid fa-download"></i> Download Cv</button>
-                                 
+                                <div id="fixMob" class="d-flex p-2 align-items-center gap-1 justify-content-center">
+                                    <button type="button" id="Download" class="btn btn-2 btn-outline-dark d-flex gap-1  justify-content-between  " ><i  class="fa-solid fa-download"></i> Download Cv</button>
                                     <button type="button" id="Contact" class="btn btn-dark " > Contact me</button>
 
                                 </div> 

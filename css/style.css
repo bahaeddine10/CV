@@ -88,7 +88,7 @@ a{
 
 
 .card  {
-  width: clamp(700px, 75% , 300px),clamp(540px, 20px , 300px);
+  width: clamp(300px, 75% , 700px);
  
   margin-left: -10%;
 }

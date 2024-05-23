@@ -3,6 +3,8 @@
     .card{
         left: 0;
     }
-  
+    #fixMob{
+        margin-left: -11%;
+    }
    
 }
