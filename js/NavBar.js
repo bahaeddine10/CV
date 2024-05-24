@@ -7,13 +7,13 @@ connectedCallback(){
     <nav class="navbar nav-underline  navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid" >
         <a class="navbar-brand Logo"  id="myname" href="#"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-current="true" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto" >
                 <li class="nav-item">
-                    <a class="nav-link active "   aria-current="page" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"   aria-label="Slide 1" href="#">Home</a>
+                    <a class="nav-link active "   aria-current="page" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"  aria-current="true" aria-label="Slide 1" href="#">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" href="#">About me</a>
