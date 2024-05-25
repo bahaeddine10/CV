@@ -23,7 +23,7 @@ export class AboutMe extends HTMLElement{
                                 <p class="card-text" style="font-size:15px"> je recherche d'un stage d'été en 
                                 Développement Logiciel<br> pour <mark >PFA</mark></p>
                                <dl class="row ">
-                                <dt class="col-sm-3 "><small style="font-size: 13px;"  class="text-dark fw-bold">Organizations Clubs</small></dt>
+                                <dt class="col-sm-3 "><small style="font-size: 13px;"  class="text-dark fw-bold">Organizations Clubs :</small></dt>
                                 <dd class="col-sm-9"> 
                                       <ul>
                                         <li><p><small style="font-size: 10px;">IEEE Cs chapter ISTIC SB : Member</small></p></li>
