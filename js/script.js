@@ -16,13 +16,13 @@ let   typed1 = new Typed('#myname', {
   });
 
 
-  let list =document.querySelectorAll(".navbar-nav .nav-item .nav-link");
-  let list3 = Array.from(list);
+  let list =Array.from(document.querySelectorAll(".navbar-nav .nav-item .nav-link"));
+  
     document.querySelector(".navbar-nav").addEventListener("click",(event)=>{
 
         if (list.entries(event.target)){
             list.forEach((el)=>{
-                console.log(el);
+                
                 if(event.target==el){
                     el.classList.add("active");
                 }else{
@@ -35,19 +35,20 @@ let   typed1 = new Typed('#myname', {
     
     document.querySelector(".carousel-control-prev").addEventListener("click",(event)=>{
         if(event.detail==1){
-        list3.unshift(list3.pop());
-        list3[1].classList.remove("active");
-        list3[0].classList.add("active");
+        list.unshift(list.pop());
+        list[1].classList.remove("active");
+        list[0].classList.add("active");
+        console.log(list);
         }
           
   })
   
   document.querySelector(".carousel-control-next").addEventListener("click",(event)=>{
     if (event.detail === 1){
-      list3.push(list3.shift());
-      list3[0].classList.add("active");
-      list3[list3.length-1].classList.remove("active");
-      console.log(list3[0])
+      list.push(list.shift());
+      list[0].classList.add("active");
+      list[list.length-1].classList.remove("active");
+      
   }
 })
 
