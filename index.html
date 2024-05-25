@@ -12,65 +12,57 @@
     
 </head>
 <body >
-    <nav-bar></nav-bar>
+  <nav class="navbar nav-underline  navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid" >
+        <a class="navbar-brand Logo"  id="myname" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto" >
+                <li class="nav-item">
+                    <a class="nav-link active "   aria-current="page" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"  aria-current="true" aria-label="Slide 1" href="#aboutMe">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" href="#Experiences">Experiences</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" href="#Certificates">Certificates</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+    
+    
     <div class="container" >
         <div id="carouselExampleIndicators" class="carousel slide">
-           
+        
             <div class="carousel-inner">
-              <div class="carousel-item active" style="padding-bottom: 12.8rem;">
-                 <h4 class="Logo  " id="H3" data-text="Welcome  :) ">Welcome :)</h4>
-                 <span class="text-black-50" id="shown"></span>
-              </div>
-              <div class="carousel-item">
+             
+              <div class="carousel-item active" id="aboutMe">
                 <about-me></about-me>
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" id="Experiences">
               <my-skills></my-skills>
               </div>
-              <div class="carousel-item">
-                <div class="row row-cols-1 row-cols-md-3 g-4 gap-1">
-                  <div class="col">
-                    <div class="card h-100">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card h-100">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a short card.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card h-100">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card h-100">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                  
+              <div class="carousel-item" id="Certificates">
+                <div class="row row-cols-1 row-cols-md-2 g-4" id="row">
                 </div>
             </div>
           
+            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span aria-hidden="true"><i class="fa-solid fa-chevron-left fs-3 text-dark"></i></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next ms-3" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span  aria-hidden="true"><i class="fa-solid fa-chevron-right fs-3 text-dark"></i></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          
           </div>
+
     </div>
 
 <script src="https://smtpjs.com/v3/smtp.js"></script>    

@@ -7,7 +7,7 @@ export class AboutMe extends HTMLElement{
     connectedCallback(){
         //html
         this.innerHTML=`
-        <div class=" card  mb-4" style="max-width: 700px;">
+        <div class=" card  mb-4 " style="max-width: 700px;margin-top:-20px;">
                     <div class="row gap-0">
                       <div class="col-md-4">
                         <img src="./img/baha5.png" class="img-fluid rounded-start " alt="...">
@@ -16,13 +16,34 @@ export class AboutMe extends HTMLElement{
                         <div class="card-body ">
                           
                                 <h4 class="card-title Logo">I'm <span class="card-text" id="Im"></span>  </h4>
-                                <ul class="list">
-                                <li class="list-item">
+                                
                                 <p class="card-text " style="font-size:15px">Étudiant en deuxième année licence sciences informatiques 
                                 spécialité de génie logiciel et Systèmes Informations en<br> 
-                                <a class="link  text-decoration-none " href="http://www.istic.rnu.tn/fr/" > ISTIC Borj Cedria </a></p> </li>
-                                <li><p class="card-text" style="font-size:15px"> je recherche d'un stage d'été en 
-                                Développement Logiciel<br> pour <mark >PFA</mark></p></li>
+                                <a class="link  text-decoration-none " href="http://www.istic.rnu.tn/fr/" > ISTIC Borj Cedria </a></p> 
+                                <p class="card-text" style="font-size:15px"> je recherche d'un stage d'été en 
+                                Développement Logiciel<br> pour <mark >PFA</mark></p>
+                               <dl class="row ">
+                                <dt class="col-sm-3 "><small style="font-size: 13px;"  class="text-dark fw-bold">Organizations Clubs</small></dt>
+                                <dd class="col-sm-9"> 
+                                      <ul>
+                                        <li><p><small style="font-size: 10px;">IEEE Cs chapter ISTIC SB : Member</small></p></li>
+                                        <li><p><small style="font-size: 10px;">IEEE Group sight ISTIC SB : Member</small></p></li>
+                                        </ul>
+                                </dd>
+
+                                <dt class="col-sm-3"><small style="font-size: 13px;" class="text-dark fw-bold">Languages:</small></dt>
+                                <dd class="col-sm-9">
+                                    <ul>
+                                        <li><p><small style="font-size: 10px;">Arabic : Native</small></p></li>
+                                        <li><p><small style="font-size: 10px;">English : B2</small></p></li>
+                                        <li><p><small style="font-size: 10px;">French : B1</small></p></li>
+                                        </ul>
+                                </dd>
+
+                                
+                                </dl>
+
+
                                 <div id="fixMob" class="d-flex p-2 align-items-center gap-1 justify-content-center">
                                     <button type="button" id="Download" class="btn btn-2 btn-outline-dark d-flex gap-1  justify-content-between  " ><i  class="fa-solid fa-download"></i> Download Cv</button>
                                     <button type="button" id="Contact" class="btn btn-dark " > Contact me</button>
@@ -39,14 +60,16 @@ export class AboutMe extends HTMLElement{
                 </div>
         
         `;
-
+        
         //js
         let typed2 = new Typed("#Im",{
             strings: ['Baha Eddine Gassar', 'Software Engineering and Information System Student'],
-            typeSpeed: 50,
+            typeSpeed: 150,
             backSpeed : 150,
             loop:true,
             cursorChar: '_'
+            ,backDelay: 1000,
+            
           
           })
           this.querySelector("#Contact").addEventListener("click",()=>{

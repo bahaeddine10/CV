@@ -44,7 +44,15 @@ html{
     left: 30%;
 
 }
+#cols{
+    
+    padding: 3rem;    
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content:center;
 
+}
 .carousel-item{
     padding: 3rem;    
     display: flex;
