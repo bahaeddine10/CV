@@ -1,8 +1,9 @@
 @media screen and (max-width : 1000px) {
     .card{
-        left: 0;
+        left: 5;
+        right: -15;
     }
-    
+
     #fixMob{
         margin-left: -11%;
     }
