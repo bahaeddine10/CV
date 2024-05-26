@@ -3,6 +3,9 @@
         left: 0;
     }
 
+    #carouselExampleIndicators{
+        margin-top: 10%;
+    }
     #fixMob{
         margin-left: -11%;
     }

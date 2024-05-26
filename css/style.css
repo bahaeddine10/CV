@@ -4,6 +4,9 @@ html{
     scroll-behavior: smooth;
     scrollbar-color: red;
 }
+#carouselExampleIndicators{
+    margin-top: 5%;
+}
 
 #H3:is(.Logo){
     position: relative;
