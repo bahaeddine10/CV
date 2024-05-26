@@ -16,42 +16,28 @@ let   typed1 = new Typed('#myname', {
   });
 
 
-  let list =Array.from(document.querySelectorAll(".navbar-nav .nav-item .nav-link"));
   
+  let list =Array.from(document.querySelectorAll(".navbar-nav .nav-item .nav-link"));
     document.querySelector(".navbar-nav").addEventListener("click",(event)=>{
-
-        if (list.entries(event.target)){
-            list.forEach((el)=>{
+      
+        
+            list.map((el)=>{
+                
                 
                 if(event.target==el){
+                    
                     el.classList.add("active");
+
+                    
                 }else{
                     el.classList.remove("active");
                 }
             })
 
-        }
+        
     })
-    
-    document.querySelector(".carousel-control-prev").addEventListener("click",(event)=>{
-        if(event.detail==1){
-        list.unshift(list.pop());
-        list[1].classList.remove("active");
-        list[0].classList.add("active");
-        console.log(list);
-        }
-          
-  })
-  
-  document.querySelector(".carousel-control-next").addEventListener("click",(event)=>{
-    if (event.detail === 1){
-      list.push(list.shift());
-      list[0].classList.add("active");
-      list[list.length-1].classList.remove("active");
-      
-  }
-})
 
+   
 
  
 
