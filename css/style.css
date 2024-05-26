@@ -8,39 +8,6 @@ html{
     margin-top: 5%;
 }
 
-#H3:is(.Logo){
-    position: relative;
-    color: white;
-    font-size:12vw;
-    -webkit-text-stroke: 0.3vw white;
-   
-}
-
-
-
-#H3:is(.Logo)::before{
-    content: attr(data-text);
-    -webkit-text-stroke: 0.0vw black;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    color: black;
-    border-right: 2px solid white;
-    overflow: hidden;
-    animation: moving 6s linear infinite;
-}
-@keyframes moving {
-    0%,10%,100%{
-        width: 0;
-    }
-    70%,90%{
-        width: 100%;
-    }
-
-    
-}
 
 .card{
     position: relative;
