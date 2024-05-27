@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Jaro:opsz@6..72&display=swap');
+
+*{
+    cursor: url("../cusor/gam1571-ezgif.com-gif-maker.gif"),auto;
+}
 html{
     scroll-behavior: smooth;
     scrollbar-color: red;
+
+    animation: cursor infinite ;
+    
 }
 #carouselExampleIndicators{
     margin-top: 0.5%;
