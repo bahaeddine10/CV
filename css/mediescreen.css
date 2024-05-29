@@ -1,6 +1,6 @@
 @media screen and (max-width : 1000px) {
     .card{
-        left: 0;
+       margin-left: 0;
         z-index: 0;
     }
     .navbar{
