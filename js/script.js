@@ -39,7 +39,7 @@ let   typed1 = new Typed('#myname', {
         
     })
   
- for(let i=1;i<16;i++){
+ for(let i=1;i<17;i++){
   let el = document.createElement("my-certificate");
   el.setAttribute("img",`../Certificate/Certificate${i}.png`)
   row.appendChild(el);  
