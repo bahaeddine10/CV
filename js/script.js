@@ -1,8 +1,10 @@
 import { AboutMe } from "./AboutMe.js";
 import { MySkill } from "./Skills.js";
 import { Certificate } from "./Certificates.js";
+import { PA } from "./ProjectAcademic.js";
 customElements.define("about-me",AboutMe);
 customElements.define("my-certificate",Certificate);
+customElements.define("projet-accademic",PA);
 
 customElements.define("my-skills",MySkill);
 let row=document.querySelector("#row");
@@ -43,3 +45,4 @@ let   typed1 = new Typed('#myname', {
   row.appendChild(el);  
  }
 
+ 

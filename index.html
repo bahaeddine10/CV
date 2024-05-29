@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Cv</title>
+
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./fontawsome/css/fontawesome.css">
     <link rel="stylesheet" href="./fontawsome/css/all.css">
@@ -45,7 +46,14 @@
                 <about-me></about-me>
               </div>
               <div class="carousel-item" id="Experiences">
-              <my-skills></my-skills>
+                <div class="row row-cols-1 row-cols-md-2 g-3" id="row2" >
+                  <div class="col">
+                    <my-skills></my-skills>
+                  </div>
+                  <div class="col">
+                    <projet-accademic></projet-accademic>
+                  </div>
+                </div>
               </div>
               <div class="carousel-item" id="Certificates">
                 <div class="row row-cols-1 row-cols-md-2 g-4" id="row">
@@ -85,6 +93,15 @@
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
+</script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+          publicKey: "service_mykss0g",
+        });
+    })();
 </script>
 
 </body>

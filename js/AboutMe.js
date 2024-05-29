@@ -34,9 +34,9 @@ export class AboutMe extends HTMLElement{
                                 <dt class="col-sm-3"><small style="font-size: 13px;" class="text-dark fw-bold">Languages:</small></dt>
                                 <dd class="col-sm-9">
                                     <ul>
-                                        <li><p><small style="font-size: 10px;">Arabic : Native</small></p></li>
-                                        <li><p><small style="font-size: 10px;">English : B2</small></p></li>
-                                        <li><p><small style="font-size: 10px;">French : B1</small></p></li>
+                                        <li><p><small style="font-size: 11px;">Arabic : Native</small></p></li>
+                                        <li><p><small style="font-size: 11px;">English : B2</small></p></li>
+                                        <li><p><small style="font-size: 11px;">French : B1</small></p></li>
                                         </ul>
                                 </dd>
 
@@ -72,22 +72,25 @@ export class AboutMe extends HTMLElement{
             
           
           })
-          this.querySelector("#Contact").addEventListener("click",()=>{
-            Swal.fire( {title:"<h4 style=\"color:#547612\">Contact Me</h4> ",html: `
-            <ul class="list-unstyled d-flex align-items-center justify-content-around gap-2">
-            <li><a class="link text-decoration-none" href="mailto:bahagassar@gmail.com"><i class="fa-regular fa-envelope"></i>bahagassar@gmail.com</a></li>
-            <li><a class="link text-decoration-none " href="https://wa.me/21627820194"><i class="fa-brands fa-whatsapp"></i>+216 27 820 194</a></li>
+          this.querySelector("#Contact").addEventListener("click",async()=>{
+            Swal.fire({title:"Contact me",
+            html:`
+            <ul class="list-unstyled">
             
+              <li > <a href="mailto:bahagassar@gmail.com" style="font-size:15px;" class="text-decoration-none text-warning"><i class="fa-solid fa-envelope"></i>  bahagassar@gmail.com</a></li>
+              <li ><a href="tel:27820194" style="font-size:15px;" class="text-decoration-none text-warning"><i class="fa-solid fa-square-phone"></i> 27820194</a></li>
+
+
             
             
             </ul>
-          `,
-          confirmButtonText:"close"
-        });
+            
+            `
+            })
           })
          
           this.querySelector("#Download").addEventListener("click",()=>{
-           window.open("./cv/Baha Eddine_Gassar.pdf")
+           window.open("./cv/Baha Eddine_Gassar.pdf"); 
           })
 
     }
