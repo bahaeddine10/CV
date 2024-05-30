@@ -46,3 +46,37 @@ let   typed1 = new Typed('#myname', {
  }
 
  
+let contact=document.querySelector("#Contact");
+
+
+contact.addEventListener("click",()=>{
+    list.forEach((el)=>{el.classList.remove("active")})
+    list[list.length-1].classList.add("active");
+    list[list.length-1].click();
+    
+    const btn = document.getElementById('button');
+
+    document.getElementById('form').addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = 'Sending...';
+
+   const serviceID = 'default_service';
+   const templateID = 'template_yckzbbg';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Send Email';
+      alert('Sent!');
+    }, (err) => {
+      btn.value = 'Send Email';
+      alert(JSON.stringify(err));
+    });
+});
+
+
+
+})
+
+
+

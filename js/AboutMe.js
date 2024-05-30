@@ -72,22 +72,22 @@ export class AboutMe extends HTMLElement{
             
           
           })
-          this.querySelector("#Contact").addEventListener("click",async()=>{
-            Swal.fire({title:"Contact me",
-            html:`
-            <ul class="list-unstyled">
+          // this.querySelector("#Contact").addEventListener("click",async()=>{
+          //   Swal.fire({title:"Contact me",
+          //   html:`
+          //   <ul class="list-unstyled">
             
-              <li > <a href="mailto:bahagassar@gmail.com" style="font-size:15px;" class="text-decoration-none text-warning"><i class="fa-solid fa-envelope"></i>  bahagassar@gmail.com</a></li><br>
-              <li ><a href="tel:27820194" style="font-size:15px;" class="text-decoration-none text-warning"><i class="fa-solid fa-square-phone"></i> 27820194</a></li>
+          //     <li > <a href="mailto:bahagassar@gmail.com" style="font-size:15px;" class="text-decoration-none text-warning"><i class="fa-solid fa-envelope"></i>  bahagassar@gmail.com</a></li><br>
+          //     <li ><a href="tel:27820194" style="font-size:15px;" class="text-decoration-none text-warning"><i class="fa-solid fa-square-phone"></i> 27820194</a></li>
 
 
             
             
-            </ul>
+          //   </ul>
             
-            `
-            })
-          })
+          //   `
+          //   })
+          // })
          
           this.querySelector("#Download").addEventListener("click",()=>{
            window.open("./cv/Baha Eddine_Gassar.pdf"); 
