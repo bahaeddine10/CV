@@ -17,11 +17,11 @@ export class AboutMe extends HTMLElement{
                           
                                 <h4 class="card-title Logo">I'm <span class="card-text" id="Im"></span>  </h4>
                                 
-                                <p class="card-text " style="font-size:15px">Étudiant en deuxième année licence sciences informatiques 
+                                <p class="card-text " style="font-size:12px">Étudiant en deuxième année licence sciences informatiques 
                                 spécialité de génie logiciel et Systèmes Informations en<br> 
-                                <a class="link  text-decoration-none " href="http://www.istic.rnu.tn/fr/" > ISTIC Borj Cedria </a></p> 
-                                <p class="card-text" style="font-size:15px"> je recherche d'un stage d'été en 
-                                Développement Logiciel<br> pour <mark >PFA</mark></p>
+                                <a class="link  text-decoration-none " style="font-size:12px" href="http://www.istic.rnu.tn/fr/" > ISTIC Borj Cedria </a></p> 
+                                <p class="card-text" style="font-size:12px"> je recherche d'un stage d'été en 
+                                Développement Logiciel<br> pour <mark style="font-size:12px">PFA</mark></p>
                                <dl class="row ">
                                 <dt class="col-sm-3 "><small style="font-size: 13px;"  class="text-dark fw-bold">Organizations Clubs :</small></dt>
                                 <dd class="col-sm-9"> 
@@ -34,15 +34,12 @@ export class AboutMe extends HTMLElement{
                                 <dt class="col-sm-3"><small style="font-size: 13px;" class="text-dark fw-bold">Languages:</small></dt>
                                 <dd class="col-sm-9">
                                     <ul>
-                                        <li><p><small style="font-size: 11px;">Arabic : Native</small></p></li>
-                                        <li><p><small style="font-size: 11px;">English : B2</small></p></li>
-                                        <li><p><small style="font-size: 11px;">French : B1</small></p></li>
-                                        <li><p><small style="font-size: 11px;">allmend : A2</small></p></li>
-
+                                        <li><p><small style="font-size: 10px;">Arabic : Native</small></p></li>
+                                        <li><p><small style="font-size: 10px;">English : B2</small></p></li>
+                                        <li><p><small style="font-size: 10px;">French : B1</small></p></li>
+                                        <li><p><small style="font-size: 10px;">Allmend : A2</small></p></li>
                                         </ul>
                                 </dd>
-
-                                
                                 </dl>
 
 
