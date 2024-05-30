@@ -37,6 +37,8 @@ export class AboutMe extends HTMLElement{
                                         <li><p><small style="font-size: 11px;">Arabic : Native</small></p></li>
                                         <li><p><small style="font-size: 11px;">English : B2</small></p></li>
                                         <li><p><small style="font-size: 11px;">French : B1</small></p></li>
+                                        <li><p><small style="font-size: 11px;">allmend : A2</small></p></li>
+
                                         </ul>
                                 </dd>
 
