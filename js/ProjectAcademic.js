@@ -15,7 +15,7 @@ export class PA extends HTMLElement{
                               <li style="font-size: 15px;">Conception et developement d'un reseaux social</li>
                         </ul>
 
-                        <button type="button" class="btn btn-info">Lien de projet</button>
+                        <button type="button" class="btn btn-info"><i class="fa-brands fa-github"></i> Lien de projet</button>
                         
 
                       </div>
