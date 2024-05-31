@@ -25,9 +25,9 @@ export class AboutMe extends HTMLElement{
                                <dl class="row ">
                                 <dt class="col-sm-3 "><small style="font-size: 13px;"  class="text-dark fw-bold">Organizations Clubs :</small></dt>
                                 <dd class="col-sm-9"> 
-                                      <ul>
-                                        <li><p><small style="font-size: 10px;">IEEE Cs chapter ISTIC SB : Member</small></p></li>
-                                        <li><p><small style="font-size: 10px;">IEEE Group sight ISTIC SB : Member</small></p></li>
+                                      <ul class="row row-cols-1 row-cols-md-2 g-2">
+                                        <li class="col"><p><small style="font-size: 10px;">IEEE Cs chapter ISTIC SB : Member</small></p></li>
+                                        <li class="col"><p><small style="font-size: 10px;">IEEE Group sight ISTIC SB : Member</small></p></li>
                                         </ul>
                                 </dd>
 
