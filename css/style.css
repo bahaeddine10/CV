@@ -3,10 +3,13 @@
 
 *{
     cursor: url("../cusor/MOVE.cur"),auto;
+    scrollbar-color:  #d4b4d75f #f2f2ea ;
+   
+   
 }
 html{
     scroll-behavior: smooth;
-    scrollbar-color: red;
+  
 
     
     
