@@ -62,7 +62,7 @@ contact.addEventListener("click",()=>{
   
 
    const serviceID = 'default_service';
-   const templateID = 'template_yckzbbg';
+   const templateID = 'ttemplate_57p81sn';
 
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
